@@ -18,17 +18,17 @@ export function SiteHeader() {
         <NavigationMenu>
           <NavigationMenuList className="hidden gap-2 md:flex">
             <NavigationMenuItem>
-              <Link href="#about" className="px-2 text-lg text-muted-foreground hover:text-foreground">
+              <Link href="#about" className="px-2 text-xs text-muted-foreground hover:text-foreground">
                 About
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#experience" className="px-2 text-lg text-muted-foreground hover:text-foreground">
+              <Link href="#experience" className="px-2 text-xs text-muted-foreground hover:text-foreground">
                 Experience
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#projects" className="px-2 text-lg text-muted-foreground hover:text-foreground">
+              <Link href="#projects" className="px-2 text-xs text-muted-foreground hover:text-foreground">
                 Projects
               </Link>
             </NavigationMenuItem>
@@ -36,13 +36,13 @@ export function SiteHeader() {
         </NavigationMenu>
         <div className="flex items-center gap-3">
           <a href="https://github.com/vibhavkaluvala" target="_blank" rel="noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-foreground">
-            <Github className="h-6 w-6 md:h-7 md:w-7" />
+            <Github className="h-4 w-4" />
           </a>
           <a href="https://linkedin.com/in/vibhavkaluvala" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-foreground">
-            <Linkedin className="h-6 w-6 md:h-7 md:w-7" />
+            <Linkedin className="h-4 w-4" />
           </a>
           <a href="mailto:vibhavsaik@gmail.com" aria-label="Email" className="text-muted-foreground hover:text-foreground">
-            <Mail className="h-6 w-6 md:h-7 md:w-7" />
+            <Mail className="h-4 w-4" />
           </a>
         </div>
       </div>

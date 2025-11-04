@@ -43,8 +43,8 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-html { font-size: 22px; }
-@media (max-width: 640px) { html { font-size: 20px; } }
+html { font-size: 14px; }
+@media (max-width: 640px) { html { font-size: 15px; } }
 
 :root {
   --radius: 0.625rem;

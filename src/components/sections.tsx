@@ -21,14 +21,14 @@ export function ExperienceAccordion({ items }: { items: Experience[] }) {
               <div className="flex w-full flex-col gap-1">
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
                   <h3 className="font-semibold">{exp.company}</h3>
-                  <span className="text-base text-muted-foreground">{exp.start} — {exp.end}</span>
+                  <span className="text-[10px] text-muted-foreground">{exp.start} — {exp.end}</span>
                 </div>
-                <div className="text-lg text-muted-foreground">{exp.role}{exp.location ? ` • ${exp.location}` : ""}</div>
+                <div className="text-[12px] text-muted-foreground">{exp.role}{exp.location ? ` • ${exp.location}` : ""}</div>
               </div>
             </div>
           </AccordionTrigger>
           <AccordionContent>
-            <p className="text-lg text-muted-foreground">{exp.summary}</p>
+            <p className="text-[11px] text-muted-foreground">{exp.summary}</p>
           </AccordionContent>
         </AccordionItem>
       ))}
@@ -68,10 +68,10 @@ export function ProjectAccordion({ items }: { items: Project[] }) {
           </AccordionTrigger>
           <AccordionContent>
             <div className="space-y-3">
-              <p className="text-lg text-muted-foreground">{p.description}</p>
+              <p className="text-[11px] text-muted-foreground">{p.description}</p>
               <div className="flex flex-wrap gap-2">
                 {p.tags.map((t, j) => (
-                  <Badge key={j} variant="secondary">{t}</Badge>
+                  <Badge key={j} variant="secondary" className="text-[11px] px-2 py-0.5">{t}</Badge>
                 ))}
               </div>
             </div>
