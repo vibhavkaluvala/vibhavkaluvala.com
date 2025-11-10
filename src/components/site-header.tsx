@@ -10,7 +10,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/50">
+<header className="sticky top-0 z-40 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/50">
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
         <Link href="#home" className="font-extrabold">
           VK
